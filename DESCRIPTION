@@ -1,0 +1,5 @@
+Package: NSR_Genomes
+Type: Package
+Title: Get Genome data for NSR_RL
+Version: 1.0.0.0
+RoxygenNote: 7.1.2
