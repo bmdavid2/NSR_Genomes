@@ -1,5 +1,8 @@
-Package: NSR_Genomes
+Package: nsrgenomes
 Type: Package
-Title: Get Genome data for NSR_RL
+Title: NSR_genomes
+Author: Benjamin David
+Maintainer: Benjamin David <bmdavid2@illinois.edu>
+Description: Functions to download the necessary mRNA and rRNA/tRNA files from the NCBI website
 Version: 1.0.0.0
 RoxygenNote: 7.1.2
