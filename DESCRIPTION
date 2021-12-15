@@ -5,6 +5,7 @@ Author: Benjamin David
 Maintainer: Benjamin David <bmdavid2@illinois.edu>
 Description: Functions to download the necessary mRNA and rRNA/tRNA files from the NCBI website
 Imports:
+  BiocManager,
   genbankr,
   kmer,
   Biostrings,
