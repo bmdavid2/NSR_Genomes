@@ -482,7 +482,7 @@ save_single_chromosome=function(genome_accession,species_name){
 #' get the mRNA and rRNA/tRNA sequences for an organism of interest from the NCBI database
 #' @param species_name The name of the organsim of interest. Ex. "E_coli"
 #' @param accession_number. The accession number of the organsim of interest. separate multiple accesion numbers by comma with no spaces
-#' @return The temperature in degrees Celsius
+#' @return mRNA and rRNA/tRNA .csv files
 #' @examples 
 #' get_genome("S_mutans","NC_004350.2")
 #' @export
