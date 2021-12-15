@@ -4,5 +4,18 @@ Title: NSR_genomes
 Author: Benjamin David
 Maintainer: Benjamin David <bmdavid2@illinois.edu>
 Description: Functions to download the necessary mRNA and rRNA/tRNA files from the NCBI website
+Imports:
+  genbankr,
+  primer3,
+  kmer,
+  Biostrings,
+  insect,
+  tictoc,
+  plyr,
+  dplyr,
+  purrr,
+  stringr,
+  snow,
+  rentrez
 Version: 1.0.0.0
 RoxygenNote: 7.1.2
