@@ -16,6 +16,7 @@ Depends:
   purrr,
   stringr,
   snow,
-  rentrez
+  rentrez,
+  primer3
 Version: 1.0.0.0
 RoxygenNote: 7.1.2
