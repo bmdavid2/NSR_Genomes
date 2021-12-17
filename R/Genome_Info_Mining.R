@@ -477,16 +477,16 @@ save_single_chromosome=function(genome_accession,species_name){
 # otherwise if options not found on command line then set defaults, 
 
 #########################
-#' get_genome
+#' nsrgenomes
 #'
 #' get the mRNA and rRNA/tRNA sequences for an organism of interest from the NCBI database
 #' @param species_name The name of the organsim of interest. Ex. "E_coli"
 #' @param accession_number. The accession number of the organsim of interest. separate multiple accesion numbers by comma with no spaces
 #' @return mRNA and rRNA/tRNA .csv files
 #' @examples 
-#' get_genome("S_mutans","NC_004350.2")
+#' nsrgenomes("S_mutans","NC_004350.2")
 #' @export
-get_genome=function(species_name,accession_number){
+nsrgenomes=function(species_name,accession_number){
   genome_accession <- strsplit(accession_number,",")
   x=lapply(genome_accession,new_df_0_creation) #Output list where each element in the list is a list itself. Element 1 in this list is the rRNA/tRNA seqs and element 2 is the mRNA seqs.
   suffix_gene="_Genes.csv"
